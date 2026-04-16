@@ -1,0 +1,45 @@
+{
+  "name": "cryptotax-skills",
+  "version": "1.0.0",
+  "description": "AI-powered crypto tax calculation skill for LLM CLI tools",
+  "main": "dist/cli.js",
+  "bin": {
+    "cryptotax": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "crypto",
+    "tax",
+    "cryptocurrency",
+    "capital-gains",
+    "fifo",
+    "hifo",
+    "blockchain",
+    "ethereum",
+    "bitcoin",
+    "solana",
+    "llm",
+    "ai-skill",
+    "claude",
+    "cursor",
+    "aider"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
